@@ -1,0 +1,55 @@
+hr{
+	width:80%;
+}
+
+%center{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.iconify{
+	font-size: 3rem;
+}
+
+.navbar{
+	background-color: transparent;
+	.iconify{
+		color: white;
+	}
+	.navbar-link{
+		color: white;
+		font-weight: bolder;
+		&:hover{
+			color: #323030;
+		}
+	}
+}
+
+#hero{
+	.hero-body{
+		@extend %center;
+	}
+	.title{
+		h1{
+			font-size: 3rem;
+		}
+		p{
+			font-size: 2rem;
+		}
+		button{
+			font-size: 2rem;
+		}
+	}
+}
+
+#crd{
+	.iconify{
+		color: white;
+	}
+}
+
+#gallery{
+
+}

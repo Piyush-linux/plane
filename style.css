@@ -1,0 +1,33 @@
+hr {
+  width: 80%; }
+
+#hero .hero-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.iconify {
+  font-size: 3rem; }
+
+.navbar {
+  background-color: transparent; }
+  .navbar .iconify {
+    color: white; }
+  .navbar .navbar-link {
+    color: white;
+    font-weight: bolder; }
+    .navbar .navbar-link:hover {
+      color: #323030; }
+
+#hero .title h1 {
+  font-size: 3rem; }
+#hero .title p {
+  font-size: 2rem; }
+#hero .title button {
+  font-size: 2rem; }
+
+#crd .iconify {
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */
