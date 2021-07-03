@@ -45,7 +45,7 @@ hr{
 		}
 	}
 }
-
+// hero
 #hero{
 	.hero-body{
 		@extend %center;
@@ -62,7 +62,11 @@ hr{
 		}
 	}
 }
-
+// about
+#about{
+	background: url("img/bg.jpg") no-repeat fixed center / cover;
+}
+// cards
 #crd{
 	.iconify{
 		color: white;
