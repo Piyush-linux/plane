@@ -4,3 +4,6 @@ nav:
 hero:
 
 ```
+
+# text responsive
+title

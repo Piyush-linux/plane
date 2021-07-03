@@ -1,7 +1,16 @@
+// var
+// media
+@mixin mobile(){
+	@media screen and (max-width:750px){
+		@content;
+	}
+}
+// pre
 hr{
 	width:80%;
+	background-color:#bdc3c7;
+	height:1px;
 }
-
 %center{
 	display: flex;
 	flex-direction: column;
@@ -12,7 +21,17 @@ hr{
 .iconify{
 	font-size: 3rem;
 }
-
+.tit{
+	font-size: 3rem;
+	font-weight: bolder;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 1rem;
+	@include mobile(){
+		font-size:2rem;
+	}
+}
+// navbar
 .navbar{
 	background-color: transparent;
 	.iconify{
@@ -52,4 +71,24 @@ hr{
 
 #gallery{
 
+}
+
+#contact{
+	.info{
+		border-bottom:1px solid #bdc3c7;
+	}
+	.input{
+		box-shadow:none;
+		border-radius:0px;
+			border:none;
+		&:focus{
+			border:none;
+		}
+	}
+	.textarea{
+		border:none;
+		&:focus{
+			border:none;
+		}
+	}
 }
